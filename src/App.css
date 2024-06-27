@@ -1,0 +1,93 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px
+}
+
+.type{
+  font-size: 12px;
+  font-weight: 700;
+  color: gray;
+}
+
+.card-container{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 12px;
+}
+
+.card-container .price{
+  font-size: 50px;
+  padding: 0px 40px;
+  font-weight: 500;
+  color: black;
+}
+
+.line{
+  border: 0.5px solid lightgray;
+  width: 100%;
+}
+
+.features{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-items: start;
+  justify-content: start;
+  width: 100%;
+  gap: 10px;
+}
+
+.features div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: start;
+  width: 100%;
+  gap: 10px;
+  font-size: 14px;
+
+}
+
+.features .allowed{
+  color: black; 
+}
+
+.features .not-allowed{
+
+  color: lightgray;
+}
+
+.features span{
+  display: flex;
+}
+
+button{
+  width: 100%;
+  border-radius: 50px;
+  padding: 14px;
+  font-size: 12px;
+  border: none;
+  background-color: #4ca1f7;
+  color: white
+}
+
+button:hover{
+  background-color: #1478f6;
+  cursor: pointer;
+}
